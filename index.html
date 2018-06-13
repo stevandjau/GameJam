@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta name="viewport" content="">
+
+	<meta charset="utf-8">
+
+	<title>Game</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="style/index.css" />
+
+	<link rel="prefetch" href="/img" />
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="wrapper">
+
+      <h1>Waves of Emotion</h1>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <div class="wrapper">
+
+      <h2 class="hidden">Emotions - The Game</h2>
+
+			<div class="canvas-box">
+
+				<div id="strtPage">
+
+					<div class="strtInfo">
+
+						<div class="w-key">
+
+							<img src="img/w-key.png" alt="The W key" height="512px" width="512px">
+
+						</div>
+
+						<div class="keys">
+
+							<img src="img/a-key.png" alt="The A key" height="512px" width="512px">
+
+						</div>
+
+						<div class="keys">
+
+							<img src="img/s-key.png" alt="The S key" height="512px" width="512px">
+
+						</div>
+
+						<div class="keys">
+
+							<img src="img/d-key.png" alt="The D key" height="512px" width="512px">
+
+						</div>
+
+						<div class="keyMsg">
+
+							<p>Use these keys to move around.</p>
+
+						</div>
+
+						<div class="btnBox">
+
+							<button id="goBtn" type="button" name="button">Begin</button>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="endPage">
+
+					<div class="endInfo">
+
+						<p class="demons">Your demons have found you.</p>
+
+						<p class="game-over">Game Over. <a href="index.html" class="start-over">Start Again</a></p>
+
+					</div>
+
+				</div>
+
+				<canvas id="game-canvas" width="800px" height="480px">
+
+				Sorry, your browser does not support canvas.
+
+				</canvas>
+
+				<canvas id="ghost-canvas" width="800px" height="480px"></canvas>
+
+			<canvas id="background-canvas" width="800px" height= "480px"></canvas>
+
+			</div>
+
+    </div>
+
+  </main>
+
+  <footer>
+
+    <div class="wrapper">
+
+      <h3>Created by Sierra Katrian and Steve Djau</h3>
+
+      <p class="footer__copyright">&copy;Copyright 2017. All rights reserved.</p>
+
+    </div>
+
+  </footer>
+
+  <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>
+

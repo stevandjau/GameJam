@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Gilda+Display|IM+Fell+English+SC');
+
+/*-------TABLE OF CONTENTS-------*/
+
+
+/* Google fonts   */
+
+
+/* General        */
+
+
+/* Header         */
+
+
+/* Navigation     */
+
+
+/* Main           */
+
+
+/* Footer         */
+
+
+/*-------GOOGLE FONTS-------*/
+
+
+/*-------GENERAL-------*/
+
+html {
+    box-sizing: border-box;
+    font-family: 'Gilda Display', serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.hidden {
+    position: absolute;
+    text-indent: -9999px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'IM Fell English SC', serif;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*-------HEADER-------*/
+
+header h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+
+/*-------MAIN-------*/
+
+.canvas-box {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#game-canvas {
+    position: absolute;
+}
+
+#ghost-canvas {
+    position: absolute;
+}
+
+#strtPage {
+    width: 100%;
+    height: 100%;
+    padding-top: 18px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.strtInfo, .endInfo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.w-key img, .keys img {
+    width: 30px;
+    height: 30px;
+}
+
+.w-key {
+    display: block;
+}
+
+.keys {
+    display: inline;
+    ;
+}
+
+.keyMsg p {
+    margin-top: 5px;
+}
+
+#goBtn {
+    font-family: 'Gilda Display', serif;
+    font-size: 4em;
+    text-transform: uppercase;
+    border-style: none;
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+#goBtn:hover {
+	font-weight: bold;
+    text-shadow: 1px 1px 2px lightgrey;
+}
+
+#endPage {
+    width: 100%;
+    min-height: 60%;
+    padding: 18px;
+    background-color: rgba(255, 255, 255, 0.8);
+	text-shadow: 1px 1px 2px lightgrey;
+    font-size: 25px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.demons {
+	font-weight: bold;
+	font-size: 36px;
+	margin: 0 20px 0 0;
+}
+
+.game-over {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0:
+}
+
+.start-over {
+	margin-left: 20px;
+	padding: 10px;
+	border: 1px solid #000;
+}
+
+.start-over:hover {
+	background-color: grey;
+	border: 1px solid #000;
+	color: #fff;
+	text-shadow: none;
+}
+
+/*-------FOOTER-------*/
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer h3 {
+    font-size: 1.5em;
+}
+
+.footer__copyright {
+    font-size: 0.8em;
+}
